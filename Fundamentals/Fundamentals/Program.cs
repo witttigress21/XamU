@@ -18,9 +18,9 @@ namespace Fundamentals
             int yearsToRetirementForMe = retirement - myAge;
             int yearsToRetirementForYou = retirement - yourAge;
 
-            Console.WriteLine("How Many Years until you retire?");
-            Console.WriteLine("For Me: {0}", yearsToRetirementForMe);
-            Console.WriteLine("For You: {0}", yearsToRetirementForYou);
+            Console.WriteLine("Will we be able to retire soon?");
+            Console.WriteLine("Years till retirement for me: {0}", yearsToRetirementForMe);
+            Console.WriteLine("Years till retirement for you: {0}", yearsToRetirementForYou);
             Console.Read();
 
 
